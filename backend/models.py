@@ -23,7 +23,7 @@ class Recording(Base):
         status (str): Current state of the recording (e.g., "completed", "failed").
         error_message (str): Optional error description if transcription failed.
     """
-    
+    # Class attr - shared by all instances, dictates the SQLite database table
     __tablename__ = "recordings"
     
     id = Column(String, primary_key=True)
