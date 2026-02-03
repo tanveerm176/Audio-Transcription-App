@@ -29,6 +29,7 @@ Features:
 - Database instead of JSON (30 min, cleaner)
 - Type hints (20 min, helps maintainability)
 - Tests + GitHub Actions (already covered)
+- Store each user's data in their Windows user folder **NEEDED**
 - Type hints everywhere (helps with maintenance)
 - Structured responses (consistency)
 - Environment-based configuration
