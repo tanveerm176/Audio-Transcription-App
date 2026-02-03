@@ -19,3 +19,19 @@ audio-transcription-app/
 - [] Step 1: FastAPI Python Proof of Concept
 - [] Step 2: Tauri with JS React
 - [] Step 3: Electron JS React w/ Python Flask 
+- [] Add app architecture diagram
+
+
+Features:
+- Error handling + logging (5 min, huge impact)
+- Config management (10 min, very useful)
+- Input validation (15 min, critical)
+- Database instead of JSON (30 min, cleaner)
+- Type hints (20 min, helps maintainability)
+- Tests + GitHub Actions (already covered)
+- Type hints everywhere (helps with maintenance)
+- Structured responses (consistency)
+- Environment-based configuration
+- Docker (reproducible environment)
+- Monitoring/health checks
+- Rate limiting (prevent abuse)
