@@ -15,3 +15,7 @@ audio-transcription-app/
 └── docs/
 ├── setup.md            # Detailed setup guide
 └── architecture.md     # Architecture documentation
+
+- [] Step 1: FastAPI Python Proof of Concept
+- [] Step 2: Tauri with JS React
+- [] Step 3: Electron JS React w/ Python Flask 
