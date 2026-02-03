@@ -15,9 +15,9 @@ import logging
 # Configure logger for this module
 logger = logging.getLogger(__name__)
 
-# Create database engine with SQLite-specific configuration
-# connect_args={"check_same_thread": False} allows the same connection to be used
-# across multiple threads, which is necessary for the application's architecture 
+""" Create database engine with SQLite-specific configuration
+connect_args={"check_same_thread": False} allows the same connection to be used
+across multiple threads, which is necessary for the application's architecture """
 engine = create_engine(
     settings.database_url,
     connect_args={"check_same_thread": False} # Required for SQLite support
